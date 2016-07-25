@@ -2,27 +2,55 @@
 layout: default
 ---
 
-{% assign services = "" %}
+{% assign rawservices = "" %}
 {% for post in site.posts %}
-  {% assign post_services = post.services | join:'|' | append:'|' %}
-  {% assign services = services | append:post_services %}
+  {% assign post_services = post.services | join: "|" | append: "|" %}
+  {% assign rawservices = rawservices | append: post_services %}
 {% endfor %}
-{% assign services = services | split:'|' | sort %}
+{% assign rawservices = rawservices | split: "|" | sort %}
+
+{% assign services = "" %}
+{% for service in rawservices %}
+  {% if services == "" %}
+    {% assign services = service | split: "|" %}
+  {% endif %}
+  {% unless services contains service %}
+    {% assign services = services | join: "|" | append: "|" | append: service | split: "|" %}
+  {% endunless %}
+{% endfor %}
+
+<div class="section-wrapper header">
+  <section>
+    <h1>List of Accessible Conferences</h1>
+  </section>
+</div>
 
 {% for service in services %}
-  <section>
-    <h1 id="{{ tag | slugify }}">{{ service }}</h1>
+  <div class="section-wrapper">
+    <section id="{{ service | slugify }}">
+      <h1>{{ service }}</h1>
 
-    <ol>
-      {% for post in site.posts %}
-        {% if post.services contains service %}
-          <li>
-            <a href="{{ post.site }}">
-              {{ post.title }} ({{ post.city }})
-            </a>
-          </li>
-        {% endif %}
-     {% endfor %}
-    </ol>
-  </section>
+      <ol class="events">
+        {% for post in site.posts %}
+          {% if post.services contains service %}
+            <li>
+              <div class="event-wrapper">
+                <a href="{{ post.site }}" target="_blank">
+                  <h2>{{ post.title }}</h2>
+                  <p class="location">in {{ post.city }}</p>
+                  <p class="dates"><time datetime="{{ post.from | date: "%Y-%m-%d" }}">{{ post.from | date: "%Y-%m-%d" }}</time> – <time datetime="{{ post.to | date: "%Y-%m-%d" }}">{{ post.to | date: "%Y-%m-%d" }}</time></p>
+                </a>
+              </div>
+            </li>
+          {% endif %}
+       {% endfor %}
+      </ol>
+    </section>
+  </div>
 {% endfor %}
+
+<div class="section-wrapper footer">
+  <section>
+    <p>Please <a href="">submit a conference</a> if you see an event missing.</p>
+  </section>
+</div>
