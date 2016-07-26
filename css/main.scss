@@ -6,6 +6,7 @@ $break-small: 600px;
 $break-large: 1000px;
 
 * { box-sizing: border-box; }
+.hidden { display: none; }
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -71,4 +72,10 @@ ol.events {
       h2 { margin-top: 0; }
     }
   }
+}
+
+summary {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 1em;
 }

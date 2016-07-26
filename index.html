@@ -33,7 +33,7 @@ layout: default
       <ol class="events">
         {% for post in site.posts %}
           {% if post.services contains service %}
-            <li>
+            <li data-service="{{ service | slugify }}">
               <div class="event-wrapper">
                 <a href="{{ post.site }}" target="_blank">
                   <h2>{{ post.title }}</h2>
@@ -45,6 +45,12 @@ layout: default
           {% endif %}
        {% endfor %}
       </ol>
+
+      <details class="hidden">
+        <summary>Past Events</summary>
+        <ol class="events past">
+        </ol>
+      </details>
     </section>
   </div>
 {% endfor %}
