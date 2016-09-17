@@ -9,6 +9,8 @@ NAME:{{ site.domain }}
 X-WR-CALNAME:{{ site.domain }}
 DESCRIPTION:{{ site.description | replace: ",","\\," }}
 X-WR-CALDESC:{{ site.description | replace: ",","\\," }}
+REFRESH-INTERVAL;VALUE=DURATION:PT5M
+X-PUBLISHED-TTL:PT5M
 METHOD:PUBLISH
 {% for post in site.posts %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@{{ site.domain }}
