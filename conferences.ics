@@ -5,16 +5,22 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:{{ site.domain }}
 CALSCALE:GREGORIAN
+NAME:{{ site.domain }}
+X-WR-CALNAME:{{ site.domain }}
+DESCRIPTION:{{ site.description }}
+X-WR-CALDESC:{{ site.description }}
 METHOD:PUBLISH
 {% for post in site.posts %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@{{ site.domain }}
 ORGANIZER;CN="{{ site.title }}":MAILTO:ical@{{ site.domain }}
 LOCATION:{{ post.city }}
 SUMMARY:{{ post.title }}
+DESCRIPTION:{{ post.services | join: ", " }}
+URL;TYPE=URI:{{ post.site }}
 CLASS:PUBLIC
 DTSTAMP:{{ post.from | date: "%Y%m%d" }}T170000Z
-DTSTART:{{ post.from | date: "%Y%m%d" }}T170000Z
-DTEND:{{ post.to | date: "%Y%m%d" }}T190000Z
+DTSTART;VALUE=DATE:{{ post.from | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ post.to | date: "%Y%m%d" }}
 END:VEVENT
 {% endfor %}
 END:VCALENDAR
