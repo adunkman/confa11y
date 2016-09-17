@@ -1,5 +1,7 @@
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-future: true
+title: "confa11y"
+description: "Find technology conferences that welcome, accommodate, and celebrate you."
+url: "https://www.confa11y.com"
+domain: confa11y.com
 
+future: true
 markdown: kramdown
