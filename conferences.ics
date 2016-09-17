@@ -7,15 +7,15 @@ PRODID:{{ site.domain }}
 CALSCALE:GREGORIAN
 NAME:{{ site.domain }}
 X-WR-CALNAME:{{ site.domain }}
-DESCRIPTION:{{ site.description }}
-X-WR-CALDESC:{{ site.description }}
+DESCRIPTION:{{ site.description | replace: ",","\\," }}
+X-WR-CALDESC:{{ site.description | replace: ",","\\," }}
 METHOD:PUBLISH
 {% for post in site.posts %}BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@{{ site.domain }}
 ORGANIZER;CN="{{ site.title }}":MAILTO:ical@{{ site.domain }}
-LOCATION:{{ post.city }}
-SUMMARY:{{ post.title }}
-DESCRIPTION:{{ post.services | join: ", " }}
+LOCATION:{{ post.city | replace: ",","\\," }}
+SUMMARY:{{ post.title | replace: ",","\\," }}
+DESCRIPTION:{{ post.services | join: "\\, " }}
 URL;TYPE=URI:{{ post.site }}
 CLASS:PUBLIC
 DTSTAMP:{{ post.from | date: "%Y%m%d" }}T170000Z
