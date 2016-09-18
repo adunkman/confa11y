@@ -22,7 +22,7 @@ URL;TYPE=URI:{{ post.site }}
 CLASS:PUBLIC
 DTSTAMP:{{ post.from | date: "%Y%m%d" }}T170000Z
 DTSTART;VALUE=DATE:{{ post.from | date: "%Y%m%d" }}
-DTEND;VALUE=DATE:{{ post.to | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ post.to | date: "%s" | plus: 86400 | date: "%Y%m%d" }}
 END:VEVENT
 {% endfor %}
 END:VCALENDAR
