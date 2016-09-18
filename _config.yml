@@ -5,3 +5,4 @@ domain: confa11y.com
 
 future: true
 markdown: kramdown
+timezone: UTC
