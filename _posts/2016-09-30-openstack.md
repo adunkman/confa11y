@@ -1,11 +1,11 @@
 ---
 layout: default
-title: CSSConf
+title: OpenStack Days Seattle
 services: [ "Live Captioning" ]
-site: https://2016.cssconf.com/
-city: Boston, MA
-from: 2016-09-26
-to: 2016-09-27
+site: http://www.openstackseattle.com/
+city: Seattle, WA
+from: 2016-09-30
+to: 2016-09-30
 ---
 
 Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/).

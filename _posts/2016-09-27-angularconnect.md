@@ -1,11 +1,11 @@
 ---
 layout: default
-title: CSSConf
+title: Angular Connect
 services: [ "Live Captioning" ]
-site: https://2016.cssconf.com/
-city: Boston, MA
-from: 2016-09-26
-to: 2016-09-27
+site: http://angularconnect.com/
+city: London, UK
+from: 2016-09-27
+to: 2016-09-28
 ---
 
 Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/).
