@@ -20,7 +20,7 @@ layout: default
 {% endfor %}
 
 <header>
-  <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+  <h1><a href="{{ site.baseurl }}" aria-label="confally">confa11y</a></h1>
   <a class="submit-button" href="https://github.com/adunkman/confa11y/issues/new">submit a conference</a>
   <p>Find technology conferences that welcome, <br>accommodate, and celebrate you.</p>
 </header>
@@ -40,7 +40,7 @@ layout: default
               <p class="dates">
                 <time datetime="{{ post.from | date: "%Y-%m-%d" }}">{{ post.from | date: "%Y-%m-%d" }}</time>
                 {% if post.from != post.to %}
-                  – <time datetime="{{ post.to | date: "%Y-%m-%d" }}">{{ post.to | date: "%Y-%m-%d" }}</time>
+                  <span aria-label="to">–</span> <time datetime="{{ post.to | date: "%Y-%m-%d" }}">{{ post.to | date: "%Y-%m-%d" }}</time>
                 {% endif %}
               </p>
             </a>
