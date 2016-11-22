@@ -5,7 +5,7 @@
   };
 
   var all_events_on_page = function () {
-    return document.querySelectorAll(".events li");
+    return document.querySelectorAll("ol li");
   };
 
   var all_past_containers_on_page = function () {
@@ -33,7 +33,7 @@
 
   var move_event_to_past_container = function (event) {
     var service = event.getAttribute("data-service");
-    var past_container = document.querySelector("#" + service + " .past.events");
+    var past_container = document.querySelector("#" + service + " .js-past");
 
     event.parentElement.removeChild(event);
     past_container.appendChild(event);

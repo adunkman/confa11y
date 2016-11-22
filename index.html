@@ -19,50 +19,64 @@ layout: default
   {% endunless %}
 {% endfor %}
 
-<div class="section-wrapper header">
-  <section>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-  </section>
-</div>
+<header>
+  <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+  <a class="submit-button" href="https://github.com/adunkman/confa11y/issues/new">submit a conference</a>
+  <p>Find technology conferences that welcome, <br>accommodate, and celebrate you.</p>
+</header>
 
+<main>
 {% for service in services %}
-  <div class="section-wrapper">
-    <section id="{{ service | slugify }}">
-      <h1>{{ service }}</h1>
+  <section id="{{ service | slugify }}">
+    <h1>{{ service }}</h1>
 
-      <ol class="events">
-        {% for post in site.posts %}
-          {% if post.services contains service %}
-            <li data-service="{{ service | slugify }}">
-              <div class="event-wrapper">
-                <a href="{{ post.site }}" target="_blank">
-                  <h2>{{ post.title }}</h2>
-                  <p class="location">in {{ post.city }}</p>
-                  <p class="dates">
-                    <time datetime="{{ post.from | date: "%Y-%m-%d" }}">{{ post.from | date: "%Y-%m-%d" }}</time>
-                    {% if post.from != post.to %}
-                      – <time datetime="{{ post.to | date: "%Y-%m-%d" }}">{{ post.to | date: "%Y-%m-%d" }}</time>
-                    {% endif %}
-                  </p>
-                </a>
-              </div>
-            </li>
-          {% endif %}
-       {% endfor %}
+    <ol>
+      {% for post in site.posts %}
+        {% if post.services contains service %}
+          <li data-service="{{ service | slugify }}">
+            <a href="{{ post.site }}" target="_blank">
+              <h2>{{ post.title }}</h2>
+              <p class="location">in {{ post.city }}</p>
+              <p class="dates">
+                <time datetime="{{ post.from | date: "%Y-%m-%d" }}">{{ post.from | date: "%Y-%m-%d" }}</time>
+                {% if post.from != post.to %}
+                  – <time datetime="{{ post.to | date: "%Y-%m-%d" }}">{{ post.to | date: "%Y-%m-%d" }}</time>
+                {% endif %}
+              </p>
+            </a>
+          </li>
+        {% endif %}
+     {% endfor %}
+    </ol>
+
+    <details class="hidden">
+      <summary>Past Events</summary>
+      <ol class="js-past">
       </ol>
-
-      <details class="hidden">
-        <summary>Past Events</summary>
-        <ol class="events past">
-        </ol>
-      </details>
-    </section>
-  </div>
-{% endfor %}
-
-<div class="section-wrapper footer">
-  <section>
-    <p>Please <a href="https://github.com/adunkman/confa11y/issues/new">submit a conference</a> if you see an event missing. Feeds: <a href="/conferences.ics">iCal</a>.</p>
+    </details>
   </section>
-</div>
+{% endfor %}
+</main>
+
+<footer>
+  <a class="submit-button" href="https://github.com/adunkman/confa11y/issues/new">submit a conference</a>
+
+  <menu>
+    <ul>
+      <li>
+        <h1>Connect</h1>
+        <ul>
+          <li><a href="https://github.com/adunkman/confa11y">GitHub</a></li>
+          <li><a href="https://twitter.com/confa11y">Twitter</a></li>
+        </ul>
+      </li>
+      <li>
+        <h1>Feeds</h1>
+        <ul>
+          <li><a href="{{ "/conferences.ics" | prepend: site.url }}">iCal</a></li>
+          <li><a href="{{ "/feed.xml" | prepend: site.url }}">RSS</a></li>
+        </ul>
+      </li>
+    </ul>
+  </menu>
+</footer>
