@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AlterConf
-services: [ "Live Captioning", "Sign Language Interpreting" ]
+services: [ "Live Captioning", "Sign Language Interpreting", "Physical Access", "Childcare", "Gender Neutral Restrooms" ]
 site: https://www.alterconf.com/conferences/seattle-wa-2017
 city: Seattle, WA
 from: 2017-05-07
