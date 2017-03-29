@@ -7,5 +7,3 @@ city: Bangalore, India
 from: 2017-07-09
 to: 2017-07-09
 ---
-
-Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/).
