@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Write/Speak/Code 2017
+title: WriteSpeakCode
 services: [ "Childcare", "Nursing / Pumping Room", "Quiet/Rest Area", "Restrooms: All-Gender / Gender-Neutral" ]
 site: http://2017.writespeakcode.com/
 city: Portland, Oregon
