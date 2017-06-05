@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tech Inclusion Settale
-services: [ "Live Captioning", "Sign Language Interpreting on Request", "Nursing / Pumping Room", "Mobility Access", "Blind/Vision Acesss (Reserved Seating Near Stage)", "Restrooms: All-Gender / Gender-Neutral" ]
+services: [ "Live Captioning", "Sign Language Interpreting on Request", "Nursing / Pumping Room", "Mobility Access", "Blind/Vision Acesss (Reserved Seating Near Stage)", "Restrooms: All-Gender / Gender-Neutral", "Quiet/Rest Area", "Pro-Tactile Interpreters on Request", "Service Animals Welcome" ]
 site: https://seattle17.techinclusion.co/
 city: Seattle, WA
 from: 2017-06-15
