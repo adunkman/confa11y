@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tech Inclusion Settale
-services: [ "Live Captioning", "Sign Language Interpreting" ]
+services: [ "Live Captioning", "Sign Language Interpreting on Request" ]
 site: https://seattle17.techinclusion.co/
 city: Seattle, WA
 from: 2017-06-15
