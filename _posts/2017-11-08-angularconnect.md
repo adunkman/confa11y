@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Angular Connect
-services: [ "Live Captioning" ]
+services: [ "Live Captioning", "Dietary Accommodation", "Mobility Access" ]
 site: https://www.angularconnect.com/
 city: London, UK
 from: 2017-11-08
