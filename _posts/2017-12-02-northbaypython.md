@@ -8,4 +8,4 @@ from: 2017-12-02
 to: 2017-12-03
 ---
 
-Source: Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/)
+Source: Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Josh Simmons](https://madeinsonoma.org)
