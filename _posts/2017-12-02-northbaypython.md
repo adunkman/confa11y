@@ -1,7 +1,7 @@
 ---
 layout: default
 title: North Bay Python
-services: [ "Live Captioning" ]
+services: [ "Live Captioning", "Financial Aid / Scholarships" ]
 site: https://2017.northbaypython.org/
 city: Petaluma, CA
 from: 2017-12-02
