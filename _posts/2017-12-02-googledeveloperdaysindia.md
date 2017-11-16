@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Google Developer Days India
-services: [ "Live Captioning", "Service Animals Welcome", "Mobility Access", "Nursing / Pumping Room", "Prayer Room" ]
+services: [ "Live Captioning", "Mobility Access", "Nursing / Pumping Room", "Prayer Room" ]
 site: https://developers.google.com/events/gdd-india/
 city: Bengaluru, India
 from: 2017-12-02
