@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Appium Conf
-services: [ "Live Captioning", "Mobility Access", "Financial Aid / Scholarships" ]
-site: https://appiumconf.com/
-city: London, UK
-from: 2018-04-06
-to: 2018-04-06
+title: The Lead Developer: New York
+services: [ "Live Captioning", "Mobility Access", "Financial Aid / Scholarships", ]
+site: https://newyork2018.theleaddeveloper.com/
+city: New York, NY
+from: 2018-04-25
+to: 2018-04-25
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Appium: Location](https://appiumconf.com/location)
+Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [LeadDev](https://newyork2018.theleaddeveloper.com/)
