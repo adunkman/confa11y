@@ -8,4 +8,4 @@ from: 2016-09-23
 to: 2016-09-24
 ---
 
-Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/).
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/)

@@ -8,4 +8,4 @@ from: 2017-10-31
 to: 2017-10-31
 ---
 
-Source: Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Firebase Dev Summit](https://firebase.google.com/dev-summit-17/)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Firebase Dev Summit](https://firebase.google.com/dev-summit-17/)

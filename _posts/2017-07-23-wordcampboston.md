@@ -8,4 +8,4 @@ from: 2017-07-22
 to: 2017-07-23
 ---
 
-Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/).
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/)

@@ -8,4 +8,4 @@ from: 2017-08-29
 to: 2017-08-29
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Accessibility](https://nashville17.techinclusion.co/)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Accessibility](https://nashville17.techinclusion.co/)

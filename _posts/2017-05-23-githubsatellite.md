@@ -1,7 +1,7 @@
 ---
 layout: default
 title: GitHub Satellite
-services: [ "Nursing / Pumping Room", "Restrooms: All-Gender / Gender-Neutral", "Live Captioning (In Progress)"]
+services: [ "Nursing / Pumping Room", "Restrooms: All-Gender / Gender-Neutral", "Live Captioning"]
 site: https://githubuniverse.com/satellite/
 city: London, UK
 from: 2017-05-22

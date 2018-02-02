@@ -8,4 +8,4 @@ from: 2018-04-25
 to: 2018-04-25
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [LeadDev: New York](https://newyork2018.theleaddeveloper.com/)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [LeadDev: New York](https://newyork2018.theleaddeveloper.com/)

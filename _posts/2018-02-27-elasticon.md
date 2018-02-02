@@ -8,4 +8,4 @@ from: 2018-02-27
 to: 2018-03-02
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/)

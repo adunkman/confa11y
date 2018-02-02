@@ -8,4 +8,4 @@ from: 2017-10-10
 to: 2017-10-11
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/)

@@ -8,4 +8,4 @@ from: 2018-03-24
 to: 2018-03-24
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Render: Location](https://2018.render-conf.com/location)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Render: Location](https://2018.render-conf.com/location)

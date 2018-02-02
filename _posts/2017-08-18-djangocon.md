@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DjangoCon US
-services: [ "Mobility Access", "Service Animals Welcome", "Quiet/Rest Area", "Recovery Meeting", "Blind/Vision Acesss (Reserved Seating Near Stage)", "Childcare: Offsite for Five and Older", "Childcare: Five and Under (In Progress)", "Nursing / Pumping Room Shared with Quiet/Rest Area" ]
+services: [ "Mobility Access", "Service Animals Welcome", "Quiet/Rest Area", "Recovery Meeting", "Blind / Vision Access", "Reserved Seating Near Stage", "Childcare", "Nursing / Pumping Room", "Quiet/Rest Area" ]
 site: https://2017.djangocon.us
 city: Spokane, Washington
 from: 2017-08-13

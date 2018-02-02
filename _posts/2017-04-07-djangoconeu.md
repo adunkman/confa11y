@@ -8,4 +8,4 @@ from: 2017-04-03
 to: 2017-04-07
 ---
 
-Source: [DjangoCon EU: An Accessible Experience](https://2017.djangocon.eu/venue/).
+Source: [DjangoCon EU: An Accessible Experience](https://2017.djangocon.eu/venue/)

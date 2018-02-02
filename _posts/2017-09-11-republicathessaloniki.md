@@ -8,4 +8,4 @@ from: 2017-09-11
 to: 2017-9-13
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [re:publica: Accessibility & Inclusion](https://re-publica.com/en/accessibility-rpEUROPE).
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [re:publica: Accessibility & Inclusion](https://re-publica.com/en/accessibility-rpEUROPE)

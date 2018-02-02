@@ -8,4 +8,4 @@ from: 2017-11-08
 to: 2017-11-09
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); Lauren, Angular Connect
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); Lauren, Angular Connect

@@ -8,4 +8,4 @@ from: 2018-02-07
 to: 2018-02-09
 ---
 
-Source: [Interaction 18: Accessibility](https://interaction18.ixda.org/accessibility/); [White Coat Captioning](http://www.whitecoatcaptioning.com/)
+Source: [Interaction 18: Accessibility](https://interaction18.ixda.org/accessibility/); Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/)

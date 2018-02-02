@@ -8,4 +8,4 @@ from: 2017-10-23
 to: 2017-10-24
 ---
 
-Source: Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Chrome Dev Summit](https://developer.chrome.com/devsummit/location)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Chrome Dev Summit](https://developer.chrome.com/devsummit/location)

@@ -8,4 +8,4 @@ from: 2017-09-05
 to: 2017-09-06
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Google Developer Days Europe: Accessibility Accommodations for Attendees](https://developers.google.com/events/gdd-europe/faq/).
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Google Developer Days Europe: Accessibility Accommodations for Attendees](https://developers.google.com/events/gdd-europe/faq/).

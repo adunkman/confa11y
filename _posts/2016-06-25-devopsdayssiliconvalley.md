@@ -8,4 +8,4 @@ from: 2016-06-24
 to: 2016-06-25
 ---
 
-Source of Submission: [@iennae](https://github.com/iennae)
+Source: [@iennae](https://github.com/iennae)

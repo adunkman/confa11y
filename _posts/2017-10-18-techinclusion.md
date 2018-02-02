@@ -8,4 +8,4 @@ from: 2017-10-18
 to: 2017-10-19
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Accessibility](https://sf17.techinclusion.co/)
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Accessibility](https://sf17.techinclusion.co/)

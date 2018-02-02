@@ -8,4 +8,4 @@ from: 2017-12-02
 to: 2017-12-03
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Google Developer Days India: FAQ](https://developers.google.com/events/gdd-india/faq/).
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Google Developer Days India: FAQ](https://developers.google.com/events/gdd-india/faq/)

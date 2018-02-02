@@ -8,4 +8,4 @@ from: 2018-03-21
 to: 2018-03-21
 ---
 
-Source: [White Coat Captioning](http://www.whitecoatcaptioning.com/); [CSSConf AU Accessibility Statement](https://2018.cssconf.com.au/accessibility).
+Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [CSSConf AU Accessibility Statement](https://2018.cssconf.com.au/accessibility).

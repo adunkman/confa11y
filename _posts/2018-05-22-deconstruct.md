@@ -8,4 +8,4 @@ from: 2018-05-22
 to: 2018-05-23
 ---
 
-Source: [Deconstruct: FAQ](https://www.deconstructconf.com/faq).
+Source: Captioned by [Deconstruct: FAQ](https://www.deconstructconf.com/faq).
