@@ -1,7 +1,7 @@
 ---
 layout: default
 title: WordCamp DC
-services: [ "Live Captioning", "Blind / Vision Acesss", "Reserved Seating Near Stage", "DeafBlind (Service Support Providers / Pro-Tactile Sign Language Interpreting) on Request", "Dietary Accommodation", "Child-Friendly Environment", "Mobility Access", "Nursing / Pumping Room", "Quiet/Rest Area", "Restrooms: All-Gender / Gender-Neutral", "Service Animals Welcome" ]
+services: [ "Live Captioning", "Blind / Vision Access", "Reserved Seating Near Stage", "DeafBlind (Service Support Providers / Pro-Tactile Sign Language Interpreting) on Request", "Dietary Accommodation", "Child-Friendly Environment", "Mobility Access", "Nursing / Pumping Room", "Quiet/Rest Area", "Restrooms: All-Gender / Gender-Neutral", "Service Animals Welcome" ]
 site: https://2017.dc.wordcamp.org/
 city: Washington, DC
 from: 2017-07-14
