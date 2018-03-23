@@ -8,4 +8,4 @@ from: 2018-05-22
 to: 2018-05-23
 ---
 
-Source: Captioned by [Deconstruct: FAQ](https://www.deconstructconf.com/faq).
+Source(s): Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [Deconstruct: FAQ](https://www.deconstructconf.com/faq)
