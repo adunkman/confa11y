@@ -8,4 +8,4 @@ from: 2018-06-28
 to: 2018-06-29
 ---
 
-Source: Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [LeadDev London: Terms](https://london2018.theleaddeveloper.com/terms)
+Source(s): Captioned by [White Coat Captioning](http://www.whitecoatcaptioning.com/); [LeadDev London: Terms](https://london2018.theleaddeveloper.com/terms)
