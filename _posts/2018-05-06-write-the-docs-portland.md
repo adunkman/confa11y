@@ -1,6 +1,6 @@
 ---
 layout: default
-title: re:publica 2018
+title: Write the Docs
 services: [ "Live Captioning", "Mobility Access", "Code of Conduct", "Reserved Seating Near Stage", "Quiet/Rest Area", "Dietary Accommodation" ]
 site: http://www.writethedocs.org/conf/portland/2018/
 city: Portland, OR
