@@ -1,6 +1,6 @@
 ---
 layout: default
-title: !!Con West
+title: Bang Bang Con West
 services: [ "Restrooms: All-Gender / Gender-Neutral", "Nursing / Pumping Room", "Live Captioning", "Accessibility Fund / Pledge / Statement", "Code of Conduct" ]
 site: http://bangbangcon.com/west/
 city: Santa Cruz, CA
