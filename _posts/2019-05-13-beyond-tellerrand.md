@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beyond Tellerrand
-services: [ "Code of Conduct", "Mobility Access" ]
+services: [ "Code of Conduct", "Mobility Access", "Live Captioning" ]
 site: https://beyondtellerrand.com/events/berlin-2018
 city: Düsseldorf, Germany
 from: 2019-05-14
