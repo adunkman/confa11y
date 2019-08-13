@@ -8,4 +8,4 @@ from: 2019-08-19
 to: 2019-08-22
 ---
 
-Source(s): Captioned by [Clarify Conf: Accessibility](https://www.clarityconf.com/)
+Source(s): [Clarify Conf: Accessibility](https://www.clarityconf.com/)
